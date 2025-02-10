@@ -1,0 +1,27 @@
+/* * {
+    color: black;  // universal selector ;
+} */
+
+
+/* element selector 
+h1 {
+    color :aqua ; 
+}
+p {
+ color: rgb(40, 36, 36);
+}
+button {
+    color: rgb(56, 50, 43);
+}
+body {
+    background-color: antiquewhite;
+}*/
+
+/* ID selector */
+#heading {
+    color : rgb(154, 177, 193)
+}
+/* Class selector */
+.myclass {
+    color : rgb(16, 18, 21);
+}
