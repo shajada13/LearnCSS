@@ -1,3 +1,4 @@
+
 /* * {
     color: black;  // universal selector ;
 } */
@@ -36,3 +37,39 @@ p {
 a {
      text-decoration: none; /* mdn web docs (web site to learn text decoration )*/
 }
+
+/* font-weight */
+#id1 {
+    font-weight: normal;
+}
+#id2 {
+    font-weight: bold;
+}
+#id3 {
+    font-weight: lighter;
+}
+#id4 {
+    font-weight :bolder;
+}
+/* font family */
+#one {
+    font-family: Arial;
+    /* family : 1.Generic 2.specific*/
+}
+#two {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+/* fall back mechanism */
+}
+
+/*==== Units  in css*/
+/* ( pixels(px) 
+96px = 1 inch =2.54cm ;
+font-size:2px;
+)*/
+/* TEXT PROPERTIES  */
+#text_properties {
+    text-transform: capitalize; uppercase,lowercase,none ;
+ }
+ #front-size {
+    font-size: 25px;
+ }

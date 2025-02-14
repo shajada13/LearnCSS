@@ -1,0 +1,15 @@
+#heading {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: larger; */
+}
+#outer {
+    font-size: 25px;
+}
+#inner {
+    font-size: 10px;
+}
