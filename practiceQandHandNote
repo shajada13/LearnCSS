@@ -15,7 +15,18 @@ Set the outer div text size to 25px & inner div text size to 10px.
 📝 Handwritten notes:
 
 <div id="outer">outer
-font-size: 25px;
-contains another div
-<div id="inner">inner
-font-size: 10px;
+    font-size: 25px;
+    contains another div
+    <div id="inner">inner
+        font-size: 10px;
+
+  <!-- Practice Set 2 -->
+
+
+        Q1: Create a div with height & width of 100px.
+        Set its background color to green & the border radius to 50%.
+
+        Q2: Create the following navbar.
+
+        (An image of a navbar is shown with the text "amazon.in", "Account", "My Cart", "Contact Us", and a search bar
+        with a "Search" button.)
