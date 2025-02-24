@@ -108,3 +108,26 @@ div {
     padding: 5px;padding: 2px,3px,4px,5px;
     margin: 23px;
  }
+/* DISPLAY ELEMENTS */
+div {
+    color : rosybrown ;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    display: block;
+    display: inline;
+    display: none;
+}
+
+/* visibility */
+box {
+    visibility: hidden;
+    /*  */
+}
+ /* alpha Channel*/
+ div {
+    
+    background-color: rgba(183, 99, 103, 0.75);
+}
