@@ -1,0 +1,61 @@
+Units in CSS
+
+=RELATIVE
+%,EM ,REM
+
+1 .
+percentage (%)
+IT is define size as relative to an elements parent object ..
+width : 33%;
+margin-left: 50% ; 
+
+2.
+EM
+USE for front size ..
+front-size:2 em; (2 time of front size with parents)
+width :5em ;
+(it means, its 5 time of front size )
+
+3. 
+REM(root elements )
+width : 5rem;(root elements of 5 time big size )
+
+other (vh,vw)
+_vh : relative to 1% viewport hight ..
+_vw : relative to 1% viewport width..
+
+===================================================
+Positions 
+  1. static.
+
+  #box1 {
+    position: static;
+    top: 20px;(its not work)
+}
+
+  2. relative..
+ 
+#box2 {
+    position: relative;
+    top: 30px;( top,right,bottom,left ,all elements are work)
+
+}
+
+
+  3. absolute...
+
+
+#box3{
+    position: absolute;
+    position: sticky;
+    left: 350px;( relative to ancestor.like father ..)
+}
+
+  4. fixed ....
+ 
+#box4 {
+position: fixed;
+right: 20px;(work with view-page; )
+}
+
+===============================================================

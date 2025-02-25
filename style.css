@@ -1,9 +1,25 @@
-div {
-    color : rgb(7, 7, 7) ;
+div{
     height: 100px;
     width: 100px;
-    margin: 25px;
-    padding: 25px;
+    background-color: aqua;
+    border: 3px solid brown;
     display: inline-block;
-    background-color: rgba(183, 99, 103, 0.75);
+}
+#box1 {
+    position: static;
+    top: 20px;(its not work)
+}
+#box2 {
+    position: relative;
+    top: 30px;( top,right,bottom,left ,all elements are work)
+
+}
+#box3{
+    position: absolute;
+    position: sticky;
+    left: 350px;( relative to ancestor.like father ..)
+}
+#box4 {
+position: fixed;
+right: 20px;(work with view-page; )
 }
