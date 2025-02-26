@@ -5,21 +5,16 @@ div{
     border: 3px solid brown;
     display: inline-block;
 }
-#box1 {
-    position: static;
-    top: 20px;(its not work)
+#box1{
+    background-image: url("image/istockphoto-121199853-1024x1024.jpg");
+    background-size: cover;
 }
-#box2 {
-    position: relative;
-    top: 30px;( top,right,bottom,left ,all elements are work)
-
+#box2{
+    background-image: url("image/istockphoto-121199853-1024x1024.jpg");
+    background-size: contain;
 }
 #box3{
-    position: absolute;
-    position: sticky;
-    left: 350px;( relative to ancestor.like father ..)
+    background-image: url("image/istockphoto-121199853-1024x1024.jpg");
+    background-size: auto; 
 }
-#box4 {
-position: fixed;
-right: 20px;(work with view-page; )
-}
+
