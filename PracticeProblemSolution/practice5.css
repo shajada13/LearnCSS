@@ -1,0 +1,38 @@
+ul {
+    background-color: rgb(100, 105, 110);
+    color: beige;
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a {
+    
+    text-decoration: none;
+    background-color: aquamarine;
+}
+li{
+    list-style-type: none;
+    /* display: inline; */
+}
+/* 2nd Q */
+
+.outer {
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(228, 188, 130);
+}
+
+/* 3rd Q */
+align-self is fast priority

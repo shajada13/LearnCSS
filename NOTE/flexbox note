@@ -1,0 +1,139 @@
+Flex box.....
+Flexible box Layout 
+it is one dimensional layout method for arranging in rows or columns..
+
+
+The flex model 
+1. flex container
+2. main axis 
+3. cross axis 
+4. lex item
+
+======================================================
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border : 2px solid black ;
+    
+}
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */    main part (flex direction )
+    flex-direction: row-reverse;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgb(49, 62, 62);
+}
+#box3{
+    background-color: aqua;
+}
+#box4{
+    background-color: rgb(97, 104, 104);
+}
+=============================================code 
+FLEX PROPERTIES ..
+
+1 . FLEX-CONTENT .. 
+
+{
+    #container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+   
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+     <!-- justify-content: space-between; -->
+
+  }
+}
+
+flex-wrap.
+align items ..
+align-content ...
+#container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+   
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    justify-content: center;
+     flex-wrap:  wrap;
+     align-items: center;
+     /* align-content: center; */
+     align-content: flex-start;
+}
+=======================code 
+#box1{
+    background-color: aqua;
+    height: 50px;
+}
+#box2{
+    background-color: rgb(49, 62, 62);
+    height: 150px;
+}
+#box3{
+    background-color: aqua;
+}
+#box4{
+    background-color: rgb(97, 104, 104);
+}
+====================
+for Flex Item
+
+align-self .
+flex grow..
+flex shrink...
+===============================code
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border : 2px solid black ;
+    
+}
+#container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+   
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    justify-content: center;
+     /* flex-wrap:  wrap; */
+     /* align-items: center; */
+     /* align-content: center; */
+     align-content: flex-start;
+}
+#box1{
+    background-color: aqua;
+    height: 50px;
+    flex-shrink: 2;(there are)
+}
+#box2{
+    background-color: rgb(49, 62, 62);
+    height: 150px;
+    align-self: flex-end;<there are >
+}
+#box3{
+    background-color: aqua;
+    flex-grow: 1;(there are)
+}
+#box4{
+    background-color: rgb(97, 104, 104);
+}
+-----------------------------------------------------

@@ -54,8 +54,8 @@ Set the outer div text size to 25px & inner div text size to 10px.
 
         Qs: Create the following layout using the given HTML.
 
-        Give the div a height, width & some background image.
-        Use the appropriate position property for the div element to place it at the right end of the page. (The div should not move even on scroll.)
+        1.Give the div a height, width & some background image.
+        2.Use the appropriate position property for the div element to place it at the right end of the page. (The div should not move even on scroll.)
         html
         Copy code
         <p> lorem*5 </p>
@@ -63,6 +63,17 @@ Set the outer div text size to 25px & inner div text size to 10px.
         <p> lorem*5 </p>
         
 
+    
+        
+ <!-- Practice Set 6  -->
+        
+        **Qs:** Create a navbar with 4 options in the form of anchor tags inside list items. Now, use flexbox to place them all spaced equally in a single line.  
+        
+        **Qs:** Use flexbox to center one div inside another div.  
+        
+        **Qs:** Which has higher priority - align-items or align-self?  
+        
+        ---
 
 
 
